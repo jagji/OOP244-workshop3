@@ -1,0 +1,42 @@
+/***********************************************************************
+// OOP244 Workshop #03 p2: tester program
+//
+// File	main.cpp
+// Version 1.0
+// Date: September 28, 2023
+// Author: Yosef Ashibani
+// Description
+//
+// Revision History
+// -----------------------------------------------------------
+// Name            Date            Reason
+//
+/////////////////////////////////////////////////////////////////
+***********************************************************************/
+
+
+/*
+*
+*   Name    : jagjit kaur
+*   Email   : jkaur682@myseneca.ca
+*   Student ID: 156806226
+*   Date    : 09-02-2024
+*
+*
+*
+
+    I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+
+*
+*/
+
+#include "Vendor.h"
+using namespace seneca;
+int main() {
+    Vendor vendor;
+    vendor.setEmpty();
+    vendor.takeOrders();
+    vendor.displayOrders();
+    vendor.clearData();
+    return 0;
+}
